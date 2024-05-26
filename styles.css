@@ -44,6 +44,24 @@ nav ul li a {
     text-decoration: none;
 }
 
+.language-switcher {
+    margin-top: 10px;
+}
+
+.language-switcher button {
+    background-color: white;
+    color: #32CD32;
+    border: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.language-switcher button:hover {
+    background-color: #32CD32;
+    color: white;
+}
+
 main {
     padding: 20px;
     text-align: center;
