@@ -80,3 +80,11 @@ function setLanguage(lang) {
 
 // Set default language to English
 setLanguage('en');
+
+// Event listener for the contact button
+document.addEventListener('DOMContentLoaded', (event) => {
+    const contactUsButton = document.getElementById('contact-us-button');
+    contactUsButton.addEventListener('click', () => {
+        window.location.href = 'mailto:misitrans24@gmail.com';
+    });
+});
